@@ -1,6 +1,10 @@
 # Run Scripts
-1. Build.bat 
-2. client.py
+1. Install gRPC for python.
+```sh
+python -m pip install grpcio
+```
+2. Build.bat 
+3. client.py
  
  
 ### - These files generate with [grpc_tools.protoc].
