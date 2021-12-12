@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Number {
+    float value = 1;
+}
+
+service Calculator {
+    rpc IncRoot(Number) returns (Number) {}
+}
+
+service Calculator2 {
+    rpc DecRoot(Number) returns (Number) {}
+}
