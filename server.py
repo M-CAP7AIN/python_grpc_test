@@ -16,7 +16,7 @@ class CalculatorServicer(calculator_pb2_grpc.CalculatorServicer):
 class Calculator2Servicer(calculator_pb2_grpc.Calculator2Servicer):
     def DecRoot(self, request, context):
         response = calculator_pb2.Number()
-        response.value = request.value + 20
+        response.value = request.value - 10
         return response
 
 
